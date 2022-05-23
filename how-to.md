@@ -3,5 +3,5 @@
  - cd my-app
  - pnpm install
  - git init && git add -A && git commit -m "Initial commit"
- - pnpm run test
+ - pnpx playwright install && pnpm run test
  - pnpm run dev -- --open
